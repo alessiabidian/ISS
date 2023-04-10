@@ -1,0 +1,25 @@
+MAGAZIN ONLINE - Agenti de vanzari
+Intr-un magazin online, clientii pot adauga produse in cosul de cumparaturi si plaseaza comenzi. Pentru a-si gestiona mai bine stocul si comenzile, magazinul are nevoie de o aplicatie care sa permita gestionarea comenzilor de catre angajati. 
+	->Clientul poate sterge produse din cos sau poate anula comenzi.
+	->Fiecare angajat are acces la aplicatia prin intermediul unui terminal, unde poate vizualiza stocul de produse, comenzile plasate de clienti si detaliile acestora. Angajatii pot actualiza stocul sau pot confirma comenzi prin intermediul aplicatiei. 
+	->Dupa fiecare actualizare a stocului sau confirmare a comenzilor, toate celelalte terminale ale angajatilor se actualizeaza cu noile informatii.
+
+Cazuri de utilizare:
+-Logare/Autentificare
+-Inregistrare (extinde autentificarea)
+-Adaugare produs in cos
+-Vizualizare produse
+-Filtrare dupa nume / pret
+-Modificare stoc
+-Sterge / Anulare comanda
+-Vizualizare stoc de catre angajat
+-Vizualizare toate comenzi de catre angajat
+-Confirmare comenzi
+-Vizualizare comenzi proprii de catre client
+-Delogare
+
+
+
+
+
+

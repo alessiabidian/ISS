@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.magazinonlineapp.controller.OrdersAngajatController">
+   <children>
+      <Text layoutX="191.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Orders">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <TableView fx:id="ordersTable" layoutX="26.0" layoutY="93.0" prefHeight="277.0" prefWidth="401.0">
+        <columns>
+          <TableColumn fx:id="orderIdColumn" prefWidth="75.0" text="Order ID" />
+          <TableColumn fx:id="clientIdColumn" prefWidth="125.0" text="Client ID" />
+            <TableColumn fx:id="dateColumn" prefWidth="75.0" text="Date" />
+            <TableColumn fx:id="detailsColumn" prefWidth="125.0" text="Details" />
+        </columns>
+      </TableView>
+      <Button fx:id="acceptButton" layoutX="467.0" layoutY="344.0" mnemonicParsing="false" onAction="#handleAcceptOrder" prefHeight="25.0" prefWidth="89.0" text="Accept Order" />
+      <Button fx:id="seeStockButton" layoutX="479.0" layoutY="93.0" mnemonicParsing="false" onAction="#handleSeeStock" text="See Stock" />
+<!--      <Button fx:id="declineButton" layoutX="467.0" layoutY="304.0" mnemonicParsing="false" onAction="#handleDeclineOrder" text="Decline Order" />-->
+   </children>
+</AnchorPane>
